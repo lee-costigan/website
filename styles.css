@@ -1,28 +1,122 @@
-/* Find Me Section */
-.find-me {
-    background-color: #f5f5f5;
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Body Styling */
+body {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    font-family: 'Iosevka Term Extended', monospace; /* Font family for all text */
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #222222; /* Slightly darker shade for the header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: #ff6347; /* Muted coral on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+/* Section Styling */
+section {
     padding: 60px 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text for headings */
+}
+
+p {
+    font-size: 1.125rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    line-height: 1.7;
+    color: #e0e0e0; /* Light grey text for readability */
+}
+
+/* Find Me Section */
+.find-me {
+    background-color: #121212; /* Darker background for Find Me */
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 40px;
     border-radius: 8px;
 }
 
 .find-me h2 {
     font-size: 2.5rem;
-    color: #2d3e3b;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 .find-me p {
     font-size: 1.125rem;
-    color: #555;
+    color: #e0e0e0;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
 }
 
+/* Social Links */
 .social-links {
     display: flex;
     justify-content: center;
@@ -32,12 +126,12 @@
 }
 
 .social-link {
-    background-color: #ffffff;
+    background-color: #333333;
     padding: 15px 25px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-decoration: none;
-    color: #333;
+    color: #ffffff; /* White text */
     font-size: 1.125rem;
     text-align: center;
     display: flex;
@@ -60,19 +154,40 @@
     transform: translateY(-5px);
 }
 
-/* Specific Social Link Colors */
-.social-link.linkedin:hover {
-    background-color: #0077b5; /* LinkedIn Blue */
+/* Footer Section */
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
 
-.social-link.twitter:hover {
-    background-color: #1da1f2; /* Twitter Blue */
+footer p {
+    font-size: 1rem;
 }
 
-.social-link.github:hover {
-    background-color: #333; /* GitHub Dark Grey */
-}
+/* Responsive Styling */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
 
-.social-link.email:hover {
-    background-color: #f4c542; /* Email Yellow */
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin: 10px 0;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-list {
+        flex-direction: column;
+        align-items: center;
+    }
 }
