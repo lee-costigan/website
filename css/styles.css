@@ -94,7 +94,7 @@ section p {
 
 /* Find Me Section */
 .find-me {
-    background-color: #121212;
+    background-color: transparent;
     padding: 60px 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
