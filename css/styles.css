@@ -28,7 +28,7 @@ header {
 
 header h1 {
     font-size: 2rem;
-    color: #ff6347;
+    color: #52a790;
 }
 
 /* Navigation Styles */
@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff8c00;
+    color: #52a790;
 }
 
 /* Mobile Styles */
@@ -153,6 +153,26 @@ p {
     margin-bottom: 40px;
 }
 
+/* Styling the Social Media Links */
+.social-media ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.social-media ul li {
+    margin: 10px 0; /* Add space between list items */
+}
+
+.social-media a {
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.25rem; /* Increase font size */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #222; /* Set background for links */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 /* Social Links */
 .social-links {
     display: flex;
@@ -191,6 +211,16 @@ p {
     transform: translateY(-5px);
 }
 
+/* Styles for the Bluesky link */
+.bluesky-link {
+    color: #3773E5; /* Change to your desired font color (example: Twitter blue) */
+    transition: color 0.3s ease; /* Optional: add a smooth transition */
+}
+
+.bluesky-link:hover {
+    color: #ffffff; /* Change to a different color on hover */
+}
+
 /* Footer Section */
 footer {
     background-color: #222222;
@@ -217,7 +247,7 @@ footer p {
 
 .blog-title {
     font-size: 2.5rem;
-    color: #ff6347;
+    color: #52a790;
     margin-bottom: 20px;
 }
 
@@ -242,7 +272,7 @@ footer p {
 
 .blog-content h2, .blog-content h3 {
     text-align: left; /* Left-align headings */
-    color: #ff6347;
+    color: #52a790;
     margin-top: 30px;
 }
 
@@ -283,7 +313,7 @@ footer {
 
 .blog-post-item h3 {
     font-size: 2rem;
-    color: #ff6347;
+    color: #52a790;
 }
 
 .blog-post-item p {
@@ -293,11 +323,11 @@ footer {
 
 .blog-post-item a {
     text-decoration: none;
-    color: #ff6347;
+    color: #52a790;
 }
 
 .blog-post-item a:hover {
-    color: #ff8c00;
+    color: #52a790;
 }
 
 footer {
