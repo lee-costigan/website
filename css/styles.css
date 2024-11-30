@@ -19,36 +19,67 @@ body {
     padding: 20px;
 }
 
-/* Header Styling */
+/* Basic Header Styles */
 header {
-    background-color: #222222; /* Slightly darker shade for the header */
-    color: white;
+    background-color: #222;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
-    margin-bottom: 40px;
 }
 
 header h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-size: 2rem;
+    color: #ff6347;
 }
 
-header nav {
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space out links */
     margin-top: 20px;
 }
 
-header nav a {
-    color: white;
+nav a {
     text-decoration: none;
-    font-size: 18px;
-    margin: 0 15px;
-    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1rem; /* Adjust font size */
+    padding: 10px 20px; /* Space around links */
+    transition: color 0.3s ease-in-out;
 }
 
-header nav a:hover {
-    color: #ff6347; /* Muted coral on hover */
+nav a:hover {
+    color: #ff8c00;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack links vertically */
+        align-items: center; /* Center the links */
+    }
+
+    nav a {
+        font-size: 1.2rem; /* Slightly larger text for mobile */
+        padding: 12px 0; /* Add more vertical padding for easier tapping */
+    }
+}
+
+/* Mobile Optimization for Header and Navigation */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem; /* Smaller header font for very small screens */
+    }
+
+    nav {
+        gap: 15px; /* Reduce gap on very small screens */
+    }
+
+    nav a {
+        font-size: 1rem; /* Reduce link font size for very small screens */
+        padding: 15px 0; /* Increase padding for easier tapping */
+    }
+}
+
 
 /* Hero Section */
 .hero {
