@@ -225,6 +225,16 @@ section p {
     transform: translateY(-5px);
 }
 
+/* Styles for the Bluesky link */
+.bluesky-link {
+    color: #1da1f2; /* Change to your desired font color (example: Twitter blue) */
+    transition: color 0.3s ease; /* Optional: add a smooth transition */
+}
+
+.bluesky-link:hover {
+    color: #ffffff; /* Change to a different color on hover */
+}
+
 /* Footer Styling */
 footer {
     background-color: #222222;
