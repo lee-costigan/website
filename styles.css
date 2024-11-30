@@ -13,7 +13,7 @@ html, body {
 body {
     background-color: #000000; /* Black background */
     color: #ffffff; /* White text */
-    font-family: 'Iosevka Term Extended', monospace; /* Font family for all text */
+    font-family: 'Courier', monospace; /* Change font to Courier */
     line-height: 1.6;
     font-size: 16px;
     padding: 20px;
