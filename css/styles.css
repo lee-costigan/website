@@ -53,32 +53,38 @@ nav a:hover {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem; /* Reduce font size on tablets */
+    }
+
     nav {
         flex-direction: column; /* Stack links vertically */
         align-items: center; /* Center the links */
+        gap: 2px; /* Reduce the gap between links */
     }
 
     nav a {
-        font-size: 1.2rem; /* Slightly larger text for mobile */
-        padding: 12px 0; /* Add more vertical padding for easier tapping */
+        font-size: 1.1rem; /* Slightly larger text for mobile */
+        padding: 2px 0; /* Reduce vertical padding for less space */
     }
 }
 
-/* Mobile Optimization for Header and Navigation */
+/* Mobile Optimization for Very Small Screens */
 @media (max-width: 480px) {
     header h1 {
-        font-size: 1.5rem; /* Smaller header font for very small screens */
+        font-size: 1.25rem; /* Further reduce font size on very small screens */
     }
 
     nav {
-        gap: 15px; /* Reduce gap on very small screens */
+        gap: 2px; /* Further reduce gap for small screens */
     }
 
     nav a {
         font-size: 1rem; /* Reduce link font size for very small screens */
-        padding: 15px 0; /* Increase padding for easier tapping */
+        padding: 2px 0; /* Further reduce padding for compact space */
     }
 }
+
 
 
 /* Hero Section */
