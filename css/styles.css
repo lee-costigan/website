@@ -227,6 +227,49 @@ footer {
     color: white;
 }
 
+/* Blog Page Styles */
+.blog-posts {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.blog-post-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.blog-post-item h3 {
+    font-size: 2rem;
+    color: #ff6347;
+}
+
+.blog-post-item p {
+    font-size: 1rem;
+    color: #d0d0d0;
+}
+
+.blog-post-item a {
+    text-decoration: none;
+    color: #ff6347;
+}
+
+.blog-post-item a:hover {
+    color: #ff8c00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111111;
+    color: white;
+}
+
 /* Responsive Styling */
 @media (max-width: 768px) {
     header h1 {
