@@ -49,10 +49,11 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-#  email: "leecostigan@me.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: deanattali
+  bluesky: leecostigan.com
   github: lee-costigan
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  email: "leecostigan@me.com"
+#  facebook: deanattali
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: "@daattali"
@@ -72,7 +73,6 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-  bluesky: leecostigan.com
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
@@ -93,6 +93,7 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
+  bluesky: true
   twitter: true
   facebook: true
   linkedin: true
@@ -119,7 +120,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
