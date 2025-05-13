@@ -1,5 +1,0 @@
-<ul class="social-media-list">
-  {%- if site.backloggd_username -%}<li><a href="https://backloggd.com/u/{{ site.backloggd_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/icons/icon-gamepad.svg#icon-gamepad' | relative_url }}"></use></svg> <span class="username">{{ site.backloggd_username| escape }}</span></a></li>{%- endif -%}
-  {%- if site.bluesky_username -%}<li><a href="https://bsky.app/profile/{{ site.bluesky_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/icons/icon-bluesky.svg#icon-bluesky' | relative_url }}"></use></svg> <span class="username">{{ site.bluesky_username| escape }}</span></a></li>{%- endif -%}
-  {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
-</ul>
