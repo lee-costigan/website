@@ -1124,3 +1124,8 @@ pre {
     display: inline-block;
   }
 }
+
+/* --- Bluesky button --- */
+.btn-bluesky .fa-bluesky {
+  color: #E6F1F1 !important; /* or any light color you prefer */
+}
