@@ -21,10 +21,10 @@ author: Lee Costigan
 
 navbar-links:
   Blog: "blog"
+  About Me: "aboutme"
   Find Me:
     - Bluesky: "https://bsky.app/profile/leecostigan.com"
     - Backloggd: "https://backloggd.com/u/LeeCostigan/"
-  About Me: "aboutme"
 
 ################
 # --- Logo --- #
