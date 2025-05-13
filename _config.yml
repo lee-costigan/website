@@ -25,7 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Lee Costigan
-bluesky_username: leecostigan.com
+social_links:
+    - title: Lee Costigan on Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/leecostigan.com"
+    - title: leecostigan on Backloggd
+      icon: gamepad
+      url: "https://backloggd.com/u/LeeCostigan/"
 
 # Build settings
 theme: minima
