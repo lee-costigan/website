@@ -22,8 +22,16 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- site.social_links | escape -%}
-      </div>
+  <ul class="social-links">
+    {%- for link in site.social_links -%}
+      <li>
+        <a href="{{ link.url | escape }}" target="_blank" rel="noopener">
+          {{ link.name | escape }}
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
