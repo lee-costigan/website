@@ -94,7 +94,7 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  bluesky: true
+  bluesky: false
   twitter: false
   facebook: false
   linkedin: false
