@@ -1124,6 +1124,13 @@ pre code {
   color: #E6F1F1 !important; /* or any light color you prefer */
 }
 
+.btn-bluesky .fa-bluesky,
+.btn-bluesky .fa-brands,
+.btn-bluesky svg {
+  color: #E6F1F1 !important;
+  fill: #E6F1F1 !important;
+}
+
 /* --- Dark theme code block contrast fix --- */
 code,
 pre,
