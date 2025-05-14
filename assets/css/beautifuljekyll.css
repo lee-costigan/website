@@ -937,6 +937,27 @@ pre {
   border: unset;
 }
 
+/* --- Force light colors for syntax-highlighted code tokens on dark backgrounds --- */
+.highlight .k,    /* keywords */
+.highlight .kd,   /* keyword declarations */
+.highlight .nx,   /* names */
+.highlight .nf,   /* function names */
+.highlight .mi,   /* numbers */
+.highlight .s,    /* strings */
+.highlight .o,    /* operators */
+.highlight .p,    /* punctuation */
+.highlight .c,    /* comments */
+.highlight .nb,   /* builtins */
+.highlight .nt,   /* tags */
+.highlight .na,   /* attribute names */
+.highlight .nv,   /* variable names */
+.highlight .err,  /* errors */
+.highlight .gi,   /* inserted */
+.highlight .gd    /* deleted */
+{
+  color: #A7FFEB !important;
+}
+
 /* --- Social media sharing section --- */
 
 #social-share-section {
