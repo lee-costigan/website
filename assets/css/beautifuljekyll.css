@@ -1143,8 +1143,3 @@ pre code, pre {
   font-size: 0.95em;
   padding: 1em;
 }
-
-#social-share-section .btn.btn-social-icon.btn-bluesky .fa-brands.fa-bluesky,
-#social-share-section .btn.btn-social-icon.btn-bluesky .fa-brands.fa-bluesky:before {
-  color: #E6F1F1 !important;
-}
