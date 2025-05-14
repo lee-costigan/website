@@ -1119,18 +1119,6 @@ pre code {
   }
 }
 
-/* --- Bluesky button --- */
-.btn-bluesky .fa-bluesky {
-  color: #E6F1F1 !important; /* or any light color you prefer */
-}
-
-.btn-bluesky .fa-bluesky,
-.btn-bluesky .fa-brands,
-.btn-bluesky svg {
-  color: #E6F1F1 !important;
-  fill: #E6F1F1 !important;
-}
-
 /* --- Dark theme code block contrast fix --- */
 code,
 pre,
@@ -1154,4 +1142,13 @@ pre code, pre {
   border-radius: 4px;
   font-size: 0.95em;
   padding: 1em;
+}
+
+/* Force Bluesky icon to be light, even inside SVG */
+.btn-bluesky .fa-bluesky,
+.btn-bluesky .fa-brands,
+.btn-bluesky svg,
+.btn-bluesky svg path {
+  color: #E6F1F1 !important;
+  fill: #E6F1F1 !important;
 }
