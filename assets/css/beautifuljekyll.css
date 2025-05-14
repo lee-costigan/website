@@ -1144,11 +1144,10 @@ pre code, pre {
   padding: 1em;
 }
 
-/* Force Bluesky icon to be light, even inside SVG */
-.btn-bluesky .fa-bluesky,
-.btn-bluesky .fa-brands,
-.btn-bluesky svg,
-.btn-bluesky svg path {
+#social-share-section .btn-bluesky .fa-bluesky,
+#social-share-section .btn-bluesky .fa-brands,
+#social-share-section .btn-bluesky svg,
+#social-share-section .btn-bluesky svg path {
   color: #E6F1F1 !important;
   fill: #E6F1F1 !important;
 }
