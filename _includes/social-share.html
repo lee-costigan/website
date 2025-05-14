@@ -10,18 +10,13 @@
 <section id = "social-share-section">
   <span class="sr-only">Share: </span>
 
-    {% if site.share-links-active.bluesky %}
+  {% if site.share-links-active.bluesky %}
     <a href="https://bsky.app/intent/compose?text={{ page.title | strip_html | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
       class="btn btn-social-icon btn-bluesky" title="Share on Bluesky">
-      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="bluesky"
-        class="svg-inline--fa fa-bluesky fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
-        width="24" height="24" style="vertical-align:middle;">
-        <path fill="#E6F1F1"
-          d="M320 96c-16.6 0-32.1 6.7-43.8 18.7l-44.7 45.7-87.7-87.7c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l87.7 87.7-45.7 44.7C102.7 287.9 96 303.4 96 320c0 53 43 96 96 96 16.6 0 32.1-6.7 43.8-18.7l44.7-45.7 87.7 87.7c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-87.7-87.7 45.7-44.7C537.3 224.1 544 208.6 544 192c0-53-43-96-96-96z" />
-      </svg>
+      <i class="fa-brands fa-bluesky" aria-hidden="true"></i>
       <span class="sr-only">Bluesky</span>
     </a>
-    {% endif %}
+  {% endif %}
 
   {% if site.share-links-active.twitter %}
     <a href="https://twitter.com/intent/tweet?text={{ page.title | strip_html | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
