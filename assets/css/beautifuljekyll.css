@@ -1144,7 +1144,20 @@ pre code, pre {
   padding: 1em;
 }
 
-a.btn.btn-social-icon.btn-bluesky > i.fa-brands.fa-bluesky {
-  color: #fff !important;
-  background: none !important;
+/* Style the Bluesky SVG icon for better contrast and sizing */
+.btn-bluesky svg {
+  height: 1.5em;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.btn-bluesky svg path {
+  fill: #fff; /* Makes the icon white for high contrast */
+  transition: fill 0.2s;
+}
+
+.btn-bluesky:hover svg path,
+.btn-bluesky:focus svg path {
+  fill: #1185fe; /* Optional: Bluesky blue on hover/focus */
 }
