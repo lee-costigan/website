@@ -1134,3 +1134,19 @@ pre {
 .btn-bluesky .fa-bluesky {
   color: #E6F1F1 !important; /* or any light color you prefer */
 }
+
+/* --- Dark theme code block contrast fix --- */
+code,
+pre,
+pre code {
+  background-color: #23272A !important; /* dark background */
+  color: #A7FFEB !important;            /* light teal text */
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-size: 0.95em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
