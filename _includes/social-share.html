@@ -50,12 +50,12 @@
     </a>
   {% endif %}
 
-    {% if site.share-links-active.bluesky %}
-  <a href="https://bsky.app/intent/compose?text={{ page.title | strip_html | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
-    class="btn btn-social-icon btn-bluesky" title="Share on Bluesky">
-    {% include_relative ../assets/img/bluesky-logo.svg %}
-    <span class="sr-only">Bluesky</span>
-  </a>
+  {% if site.share-links-active.bluesky %}
+    <a href="https://bsky.app/intent/compose?text={{ page.title | strip_html | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+      class="btn btn-social-icon btn-bluesky" title="Share on Bluesky">
+      <span class="fab fa-fw fa-bluesky" aria-hidden="true"></span>
+      <span class="sr-only">Bluesky</span>
+    </a>
   {% endif %}
 
 </section>
