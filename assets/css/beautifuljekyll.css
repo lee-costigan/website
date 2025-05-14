@@ -1144,7 +1144,7 @@ pre code, pre {
   padding: 1em;
 }
 
-#social-share-section .btn.btn-social-icon.btn-bluesky,
-#social-share-section .btn.btn-social-icon.btn-bluesky .fa-brands.fa-bluesky {
+#social-share-section .btn.btn-social-icon.btn-bluesky .fa-brands.fa-bluesky,
+#social-share-section .btn.btn-social-icon.btn-bluesky .fa-brands.fa-bluesky:before {
   color: #E6F1F1 !important;
 }
