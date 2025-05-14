@@ -1144,17 +1144,7 @@ pre code, pre {
   padding: 1em;
 }
 
-/* Improve contrast for Bluesky share button */
-.btn-bluesky {
-  background: #0057ff; /* Example: strong blue background */
-  color: #fff !important; /* White icon/text for contrast */
-}
-
-/* Stronger selector for Bluesky icon color */
-.btn-bluesky .fa-bluesky,
-.btn-bluesky svg.fa-bluesky,
-.btn-bluesky .fa-brands.fa-bluesky,
-.btn-bluesky svg {
+a.btn.btn-social-icon.btn-bluesky > i.fa-brands.fa-bluesky {
   color: #fff !important;
-  fill: #fff !important;
+  background: none !important;
 }
