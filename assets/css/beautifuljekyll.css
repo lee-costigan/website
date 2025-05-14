@@ -1147,7 +1147,8 @@ pre code, pre {
 #social-share-section .btn-bluesky .fa-bluesky,
 #social-share-section .btn-bluesky .fa-brands,
 #social-share-section .btn-bluesky svg,
-#social-share-section .btn-bluesky svg path {
+#social-share-section .btn-bluesky svg path 
+#social-share-section .btn.btn-social-icon.btn-bluesky .fa-brands.fa-bluesky {
   color: #E6F1F1 !important;
   fill: #E6F1F1 !important;
 }
