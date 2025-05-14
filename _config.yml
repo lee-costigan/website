@@ -20,7 +20,7 @@ author: Lee Costigan
 ###############################################
 
 navbar-links:
-  Blog: "blog"
+  Posts: "blog"
   About Me: "aboutme"
   Find Me:
     - Bluesky: "https://bsky.app/profile/leecostigan.com"
