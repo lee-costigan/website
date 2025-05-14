@@ -1150,6 +1150,11 @@ pre code, pre {
   color: #fff !important; /* White icon/text for contrast */
 }
 
-.btn-bluesky .fa-bluesky {
-  color: #fff !important; /* Ensures the icon is white */
+/* Stronger selector for Bluesky icon color */
+.btn-bluesky .fa-bluesky,
+.btn-bluesky svg.fa-bluesky,
+.btn-bluesky .fa-brands.fa-bluesky,
+.btn-bluesky svg {
+  color: #fff !important;
+  fill: #fff !important;
 }
