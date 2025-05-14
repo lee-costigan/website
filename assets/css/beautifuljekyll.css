@@ -1143,3 +1143,13 @@ pre code, pre {
   font-size: 0.95em;
   padding: 1em;
 }
+
+/* Improve contrast for Bluesky share button */
+.btn-bluesky {
+  background: #0057ff; /* Example: strong blue background */
+  color: #fff !important; /* White icon/text for contrast */
+}
+
+.btn-bluesky .fa-bluesky {
+  color: #fff !important; /* Ensures the icon is white */
+}
