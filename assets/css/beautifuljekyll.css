@@ -933,6 +933,15 @@ pre code {
   margin-top: 1.875rem;
 }
 
+/* Restore Font Awesome brand colors for social icons */
+.btn-social-icon .fa-facebook { color: #1877F3 !important; }
+.btn-social-icon .fa-x-twitter { color: #000000 !important; }
+.btn-social-icon .fa-linkedin { color: #0077B5 !important; }
+.btn-social-icon .fa-vk { color: #4C75A3 !important; }
+.btn-social-icon .fa-reddit { color: #FF4500 !important; }
+.btn-social-icon .fa-bluesky { color: #00A0DC !important; }
+/* Add more as needed */
+
 /* --- Notification boxes --- */
 .box-note,
 .box-warning,
