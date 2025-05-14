@@ -1171,3 +1171,12 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
+
+/* Ensure all <pre><code>...</code></pre> blocks use high-contrast colors */
+pre code, pre {
+  background-color: #23272A !important;
+  color: #A7FFEB !important;
+  border-radius: 4px;
+  font-size: 0.95em;
+  padding: 1em;
+}
